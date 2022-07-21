@@ -1,8 +1,9 @@
+import "./app.css";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hardik Bachhan</h1>
+      <h1>Hardik Bachhan!</h1>
     </div>
   );
 }
