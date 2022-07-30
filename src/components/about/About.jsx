@@ -20,12 +20,11 @@ function About() {
           I am a Graduate majoring in Computer Science Engineering (CSE), from Maharaja Agrasen Institute of Technology (MAIT), India. I have experience in building Full Stack applications. Currently, I am working on my Personal Blog and making Frontend of a Business website for a friend. I am results-driven, love to learn new technologies, and collaborate with other people to learn something new every day.
         </p>
         <div className="a-award">
-          <img src="/img/award.png" alt="" className="a-award-img" />
+          <img src="/img/github.png" alt="" className="a-award-img" />
           <div className="a-award-texts">
-            <h4 className="a-award-title">International Design Awards 2021</h4>
+            <h4 className="a-award-title">Arctic Code Vault Contributor</h4>
             <p className="a-award-desc">
-              Nemo enim ipsam voluptatem quia voluptas sit aspernatur autodit
-              and fugit.
+            Authored a commit on the default branch of Simon game repository that was archived in the 2020 Arctic Vault program.
             </p>
           </div>
         </div>
