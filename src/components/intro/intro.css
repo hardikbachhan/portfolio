@@ -1,13 +1,13 @@
 .i {
     display: flex;
     height: 100vh;
-
 }
 
 .i-left {
     flex: 1;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .i-right {
@@ -79,7 +79,6 @@
     height: 100%;
     object-fit: cover;
     position: absolute;
-    /* border-radius: 10px; */
 }
 
 .i-bg {
@@ -90,4 +89,35 @@
     position: absolute;
     top: 0;
     right: 0;
+}
+
+@media screen and (max-width: 1000px) {
+    .i {
+        flex-direction: column;
+    }
+
+    .i-title {
+        margin-top: 10px;
+    }
+
+    .i-left-wrapper {
+        padding: 10px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        height: 100%;
+    }
+
+    .i-title-item {
+        justify-content: center;
+    }
+
+    .i-desc {
+        display: none;
+    }
+
+    .i-right {
+        display: flex;
+        justify-content: center;
+    }
 }

@@ -96,3 +96,41 @@ button:hover {
     font-weight: 300;
     margin-top: 20px;
 }
+
+@media screen and (max-width: 1000px) {
+    .c {
+        margin-top: 30px;
+    }
+
+    .c-wrapper {
+        flex-direction: column;
+        padding: 0px 50px;
+    }
+
+    .c-title {
+        font-size: 30px;
+    }
+
+    .c-info-item {
+        width: 100%;
+        margin: 20px 0px;
+    }
+
+    .c-right {
+        margin-top: 25px;
+    }
+
+    form {
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    button {
+        margin-top: 10px;
+    }
+}

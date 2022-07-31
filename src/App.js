@@ -19,8 +19,11 @@ function App() {
     >
       <Toggle />
       <Intro />
+      <hr />
       <About />
+      <hr />
       <ProductList />
+      <hr />
       <Contact />
     </div>
   );

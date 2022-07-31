@@ -6,13 +6,13 @@ function Intro() {
     <div className="i">
       <div className="i-left">
         <div className="i-left-wrapper">
-          <h2 className="i-intro">Hello, My name is</h2>
+          <h2 className="i-intro">Hello, My <span style={{color: "#EB1D36"}}>name</span> is</h2>
           <h1 className="i-name">Hardik Bachhan</h1>
           <div className="i-title">
             <div className="i-title-wrapper">
-              <div className="i-title-item">Web Developer</div>
-              <div className="i-title-item">Artist</div>
               <div className="i-title-item">Software Engineer</div>
+              <div className="i-title-item">Artist</div>
+              <div className="i-title-item">Web Developer</div>
               <div className="i-title-item">Learner</div>
               <div className="i-title-item">Scuba Diver</div>
             </div>

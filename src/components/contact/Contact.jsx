@@ -45,7 +45,10 @@ function Contact() {
       <div className="c-bg"></div>
       <div className="c-wrapper">
         <div className="c-left">
-          <h1 className="c-title">Let's discuss your Project.</h1>
+          <h1 className="c-title">
+            Let's discuss your <span style={{ color: "#EB1D36" }}>Project</span>
+            .
+          </h1>
           <div className="c-info">
             <div className="c-info-item">
               <img src="/img/email.png" alt="email" className="c-icon" />
@@ -60,7 +63,8 @@ function Contact() {
         <div className="c-right">
           <p className="c-desc">
             <strong>What's your story?</strong> Get in touch. Always up for
-            freelancing if the right project comes along. Me.
+            freelancing if the right project comes along. <br />
+            <span style={{ color: "#EB1D36" }}>Me</span>.
           </p>
           <form ref={formRef} onSubmit={handleSubmit} className="submit-form">
             <input
