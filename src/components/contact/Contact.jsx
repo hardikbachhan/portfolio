@@ -75,6 +75,7 @@ function Contact() {
               type="text"
               placeholder="Name"
               name="user_name"
+              required
             />
             <input
               style={{
@@ -84,6 +85,7 @@ function Contact() {
               type="text"
               placeholder="Subject"
               name="user_subject"
+              required
             />
             <input
               style={{
@@ -93,6 +95,7 @@ function Contact() {
               type="email"
               placeholder="Email"
               name="user_email"
+              required
             />
             <textarea
               style={{
@@ -103,6 +106,7 @@ function Contact() {
               cols="30"
               rows="10"
               placeholder="Message"
+              required
             ></textarea>
             <button>Submit</button>
             {done && <h1 className="response">Thank you!!!</h1>}
