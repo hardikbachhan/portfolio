@@ -22,7 +22,7 @@ export const products = [
     {
         id: 5,
         img: "/projects/simon.png",
-        link: "https://github.com/hardikbachhan/Simon-Game",
+        link: "https://hbsimongame.netlify.app/",
     },
     {
         id: 6,
