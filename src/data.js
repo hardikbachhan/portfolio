@@ -17,7 +17,7 @@ export const products = [
     {
         id: 4,
         img: "/projects/textutils.png",
-        link: "https://github.com/hardikbachhan/TextUtils",
+        link: "https://hbtextutils.netlify.app/",
     },
     {
         id: 5,
