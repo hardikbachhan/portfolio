@@ -2,7 +2,7 @@ export const products = [
     {
         id: 1,
         img: "/projects/blog.png",
-        link: "https://hardikbachhanblog.herokuapp.com/",
+        link: "https://hbblog.netlify.app/",
     },
     {
         id: 2,
