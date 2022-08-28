@@ -27,6 +27,6 @@ export const products = [
     {
         id: 6,
         img: "/projects/visualizer.png",
-        link: "https://www.linkedin.com/in/hardikbachhan/",
+        link: "https://github.com/hardikbachhan/sorting-visualizer",
     },
 ];
